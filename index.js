@@ -13,4 +13,7 @@ submit.onclick=function(){
     else if(radiobutton2.checked){
         value.textContent=Math.round((temp.value-32)*5/9) + '°C';
     }
+   else{
+        value.textContent='Select';
+    }
 }
