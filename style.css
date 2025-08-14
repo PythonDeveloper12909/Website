@@ -1,68 +1,37 @@
-#tempbox{
-    background-color:white;
-    width: 400px;
-    height: 500px;
-    margin-left: 40%;
-    box-shadow: 1px 1px 10px gray;
-    border-radius: 20px; 
-    position: relative;
-}
-#temp{
-    font-size: 35px;
-    color: aqua;
-    position: absolute;
-    top:50px;
-    left: 35px;
-
-}
-#textarea{
-    width: 100px;
-    height: 60px;
-    position: absolute;
-    top: 30%;
-    left: 38%;
+h1{
+    margin-left: 45%;
     font-size: 50px;
-    text-align: center;
-    border: solid 1px;
 }
-#radio1{
-    position: absolute;
-    top:51%;
-    left:10%;
+.container{
+    display: flex;
+    flex-direction: row; 
+    margin-left: 42%;
+    
+}
+#no1{
     font-size: 25px;
 }
-#radio1label{
-    position: absolute;
-    top:50%;
-    left:15%;
-    font-size: 25px;
-
-}
-#radio2{
-    position: absolute;
-    top:59%;
-    left:10%;
-    font-size: 25px;
-}
-#radio2label{
-    position: absolute;
-    top:58%;
-    left:15%;
-    font-size: 25px;
-}
-#submit{
-    background-color: red;
+#butt{
     color: white;
-    border-radius: 10px;
-    width: 60px;
+    background-color: aqua;
+    width: 100px;
     height: 40px;
-    position: absolute;
-    top: 70%;
-    left: 40%;
+    
+}
+#butt:hover{
+    background-color: aquamarine;
+}
+#no{
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    text-align: center;
 }
 #value{
-    font-size: 40px;
-    position: absolute;
-    top: 80%;
-    left: 40%;
+    font-size: 25px;
+    margin-left: 40%;
+}
+#diceimages{
+    margin-left: 40%;
+    margin-top: 2%;
 }
