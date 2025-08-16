@@ -12,7 +12,7 @@ rolldice.onclick = function () {
     random2 = Math.floor(random1) + 1;
     values.push(random2);
     images.push(
-      `<img src="dice${random2}no.png" alt="this is a image" width="250" height="250">`
+      `<img src="images/dice${random2}no.png" alt="this is a image" width="250" height="250">`
     );
   }
   if (
