@@ -1,0 +1,124 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header / Hero */
+.hero {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.hero-img {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  object-fit: cover;
+}
+
+.hero-heading {
+  color: white;
+  font-size: 3.75rem; /* text-6xl */
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+/* Work Section */
+.work-section {
+  width: 100vw;
+  height: 20vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.work-section h1 {
+  color: white;
+  font-size: 3rem; /* text-5xl */
+}
+
+/* Services Section */
+.service-container {
+  width: 100vw;
+  height: 80vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  margin-top: 5%;
+}
+
+.service-card {
+  width: 25vw;
+  height: 70vh;
+  background-color: white;
+  border-radius: 20%;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+}
+
+.service-card h1 {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: bold;
+  text-align: center;
+}
+
+.service-card h4 {
+  font-size: 0.875rem; /* text-sm */
+}
+
+/* Footer */
+.footer-top {
+  display: flex;
+}
+
+.contact {
+  width: 50vw;
+  height: 30vh;
+  background-color: #14532d; /* green-900 */
+  font-size: 2.25rem; /* text-4xl */
+  color: white;
+  padding: 10px;
+}
+
+.about {
+  width: 50vw;
+  height: 30vh;
+  background-color: #3b0a0a; /* red-950 */
+  font-size: 2.25rem; /* text-4xl */
+  color: white;
+  padding: 10px;
+}
+
+.contact h4,
+.about h4 {
+  font-size: 1.125rem; /* text-lg */
+}
+
+.footer-bottom {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.25rem; /* text-4xl */
+  color: white;
+}
